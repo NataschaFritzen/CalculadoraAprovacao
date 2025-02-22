@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Aprovação</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Aprovação</h1>
+        <label for="nota">Digite a nota do aluno:</label>
+        <input type="number" id="nota" placeholder="Ex: 7.5" min="0" max="10"/>
+        <button onclick="verificaAprovacao()">Verificar Aprovação</button>
+        <p id="resultado"></p>
+    </div>
+</body>
+</html>
